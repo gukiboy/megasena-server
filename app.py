@@ -42,4 +42,4 @@ def schedule_lottery():
     return 'Json postado'
 
 if __name__ == '__main__':
-    app.run(host='10.0.0.105', debug=True)
+    app.run(host='localhost', debug=True)
